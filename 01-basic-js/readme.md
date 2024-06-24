@@ -133,3 +133,4 @@ else{
    statement
  }
       
+LOOPS IN JAVASCRIPT :-
