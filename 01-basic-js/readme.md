@@ -106,7 +106,7 @@ Operator in JS :-
     conditional statement :-
     - to implement some condition in the code
     - there are 3 types of conditional statements are there
-    1. if condition
+ 1. if condition
   - if condition is true then statement is true otherwise false
   syntax:-
   if(condition){
@@ -133,4 +133,48 @@ else{
    statement
  }
       
-LOOPS IN JAVASCRIPT :-
+LOOPS :-
+
+- loops are used to execute a piece of code again and again.
+
+1. for Loop :-
+syntax - 
+for (initialization, condition, updation){
+  statement
+}
+ex-
+for(let i = 1; i <= 5; i++){
+  console.log("web bocket")
+}
+web bocket
+web bocket
+web bocket 
+web bocket
+web bocket
+
+2. while loop :-
+syntax -
+while(condition){
+  statement
+  updation
+}
+
+3. do-while :-
+syntax -
+do{
+  statement
+  updation
+} while (condition);
+
+4. for-of loop :-
+it iterate on string and array
+5. for-in loop :-
+it iterate over objects(key-value pair)
+syntax-
+for(let key in objvar){
+  statement
+}
+
+* home work * 
+1. print all even number from 0 to 100
+2. create a game you start with any random game number. ask the user to keep guessing the gamr number untill the user enters correct value.+
